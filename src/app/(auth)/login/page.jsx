@@ -68,7 +68,7 @@ export default function Login() {
                             onChange={(e) => setEmail(e.target.value)}
                             required
                             variant="bordered"
-                            className="max-w-full"
+                            className="max-w-full text-gray-600"
                             isDisabled={isLoading}
                         />
 
@@ -93,7 +93,7 @@ export default function Login() {
                                 </button>
                             }
                             type={isVisible ? "text" : "password"}
-                            className="max-w-full"
+                            className="max-w-full text-gray-600"
                             isDisabled={isLoading}
                         />
 

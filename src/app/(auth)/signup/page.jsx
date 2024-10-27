@@ -48,7 +48,7 @@ export default function Signup() {
                             onChange={(e) => setEmail(e.target.value)}
                             required
                             variant="bordered"
-                            className="max-w-full"
+                            className="max-w-full text-gray-600"
                         />
 
                         <Input
@@ -72,7 +72,7 @@ export default function Signup() {
                                 </button>
                             }
                             type={isVisible ? "text" : "password"}
-                            className="max-w-full"
+                            className="max-w-full text-gray-600"
                         />
 
                         <Button
