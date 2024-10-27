@@ -126,7 +126,7 @@ export default function Login() {
                             </Link>
                         </p>
                         <p className="text-center text-sm text-gray-600">
-                            <Link href="/forgot-password" className="text-primary font-medium hover:underline">
+                            <Link href="/" className="text-primary font-medium hover:underline">
                                 Forgot password?
                             </Link>
                         </p>
