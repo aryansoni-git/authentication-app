@@ -19,12 +19,12 @@ export default function Signup() {
     const handleSignup = async (e) => {
         e.preventDefault();
         
-        const res = await fetch('/api/auth/signup', {
+        const res = await fetch('https://authentication-app-henna.vercel.app/api/auth/signup', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password }),
         });
-        
+
         if (res.ok) {
             router.push('/login');
         } else {
